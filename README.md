@@ -6,7 +6,7 @@ Everything you need to know/practice, to become a PHP Laravel Developer. Its a p
 <?php
 
 /**
-* @author Become a Laravel Developer
+* @author 'Sunwarul Islam'
 */
 
 echo "We Love Laravel!💓";
