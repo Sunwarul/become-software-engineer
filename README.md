@@ -25,77 +25,39 @@ echo "We Love Laravel!💓";
 <pre>
 .
 ├── Algorithms
-│   └── README.md
 ├── DataStructures
-│   └── README.md
 ├── DevOps
 │   ├── cPanel
-│   │   └── README.md
 │   ├── DigitalOceanLinux
-│   │   └── README.md
-│   ├── Docker
-│   │   └── README.md
-│   └── README.md
+│   └── Docker
 ├── Documents
-│   └── README.md
 ├── FunctionalProgramming
-│   └── README.md
 ├── GitAndGithub
-│   └── README.md
 ├── GraphQL
-│   └── README.md
 ├── Laravel
-│   └── README.md
 ├── Linux
-│   └── README.md
 ├── OOP
-│   └── README.md
 ├── PHP
-│   ├── Installation.md
-│   └── README.md
 ├── Postman_Insomnia
-│   └── README.md
 ├── ProblemSolving
-│   └── README.md
 ├── ReactJS
-│   └── README.md
-├── README.md
 ├── REST_API
-│   └── README.md
 ├── SQL
-│   └── README.md
 ├── UnitTesting
-│   └── README.md
 ├── VsCode_Vim
-│   └── README.md
 ├── Vue
-│   ├── README.md
 │   ├── VueApollo
-│   │   └── README.md
 │   ├── VueRouter
-│   │   └── README.md
 │   ├── Vuetify
-│   │   └── README.md
 │   └── Vuex
-│   └── README.md
 └── WebTechnologies
-├── Ajax_Axios_Fetch
-│   └── README.md
-├── Bootstrap
-│   └── README.md
-├── CSS
-│   └── README.md
-├── HTML
-│   └── README.md
-├── JavaScript
-│   └── README.md
-├── jQuery
-│   └── README.md
-├── README.md
-├── SASS
-│   └── README.md
-├── Tailwind
-│   └── README.md
-└── Webpack
-└── README.md
+    ├── Ajax_Axios_Fetch
+    ├── Bootstrap
+    ├── CSS
+    ├── HTML
+    ├── JavaScript
+    ├── jQuery
+    ├── SASS
+    ├── Tailwind
+    └── Webpack
 </pre>
