@@ -38,20 +38,19 @@ echo "We Love Laravel!💓";
 ├── Linux
 ├── OOP
 ├── PHP
-├── Postman_Insomnia
 ├── ProblemSolving
 ├── ReactJS
-├── REST_API
+├── RESTApi
 ├── SQL
 ├── UnitTesting
-├── VsCode_Vim
+├── VsCodeVim
 ├── Vue
 │   ├── VueApollo
 │   ├── VueRouter
 │   ├── Vuetify
 │   └── Vuex
 └── WebTechnologies
-    ├── Ajax_Axios_Fetch
+    ├── AjaxAxiosFetch
     ├── Bootstrap
     ├── CSS
     ├── HTML
