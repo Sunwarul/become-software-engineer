@@ -6,4 +6,4 @@
 </div>
 ```
 
-![]()![Screenshot from 2021-02-13 23-12-27](Screenshot from 2021-02-13 23-12-27.png)
+![]()![Example image](Screenshot from 2021-02-13 23-12-27.png)
