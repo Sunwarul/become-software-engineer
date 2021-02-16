@@ -1,0 +1,21 @@
+{
+    "name": "sunwarul/laravel-developer-interview-preparation",
+    "description": "Laravel developer journey",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sunwarul Islam",
+            "email": "sanoarulslm@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "app\\": "OOP/"
+        }
+    }
+}
