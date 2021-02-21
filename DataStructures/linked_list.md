@@ -1,3 +1,14 @@
+# Linked List
+
+**Types of Linked List**
+
+- Doubly linked list
+-  Circular linked list
+-  Multi-linked list
+
+**Linked List Example**
+
+```php
 <?php
 
 class ListNode
@@ -47,13 +58,11 @@ class LinkedList
 }
 
 $linked_list = new LinkedList();
-$linked_list->insert("One");
-$linked_list->insert("Two");
-$linked_list->insert("Three");
+$linked_list->insert("Item One");
+$linked_list->insert("Item Two");
+$linked_list->insert("Item Three");
 
 $linked_list->display();
 
-/* Total items = 3
-One
-Two
-Three */
+```
+
