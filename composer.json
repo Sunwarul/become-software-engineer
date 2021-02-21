@@ -2,9 +2,6 @@
     "name": "sunwarul/laravel-developer-interview-preparation",
     "description": "Laravel developer journey",
     "type": "project",
-    "require": {
-        "phpunit/phpunit": "^9.5"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -14,8 +11,21 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
+        "classmap": [
+            "PHP/array/"
+        ],
         "psr-4": {
-            "app\\": "OOP/"
+            "PHP\\": "PHP/",
+            "OOP\\": "OOP/",
+            "Laravel\\": "Laravel/",
+            "UnitTesting\\": "UnitTesting/",
+            "RESTApi\\": "RESTApi/",
+            "Algorithms\\": "Algorithms/",
+            "DataStructures\\": "DataStructures/",
+            "ProblemSolving\\": "ProblemSolving/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
     }
 }
