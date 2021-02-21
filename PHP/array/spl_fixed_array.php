@@ -5,7 +5,8 @@
  * $spl_array = new SplFixedArray(100);
  * $spl_array = SplFixedArray::fromArray($regular_array, true|false);
  * $regular_array = $spl_array->toArray(); 
- * SplFixedArray::fromArray($array, save_indexes_or_not = true)
+ * SplFixedArray::fromArray($array, save_indexes_or_not = true);
+ * SplFixedArray_Instance->setSize(NEW_SIZE);
  */
 
 $spl_array = new SplFixedArray(3);
