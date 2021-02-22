@@ -162,7 +162,6 @@ class LinkedList
                             break;
                         }
                     }
-
                     $this->total_nodes--;
                     break;
                 }
@@ -186,6 +185,48 @@ class LinkedList
             $current_node = $current_node->next;
         }
     }
+
+    /**
+     * Reverse a linked list
+     *
+     * @return void
+     */
+    public function reverse(): void
+    {
+        if ($this->first_node !== NULL) {
+            if ($this->first_node->next !== NULL) {
+                $reversedList = NULL;
+                $next = NULL;
+                $currentNode = $this->first_node;
+                while ($currentNode !== NULL) {
+                    $next = $currentNode->next;
+                    $currentNode->next = $reversedList;
+                    $reversedList = $currentNode;
+                    $currentNode = $next;
+                }
+                $this->first_node = $reversedList;
+            }
+        }
+    }
+
+    /**
+     * Get Nth node
+     *
+     * @param integer $n
+     * @return mixed
+     */
+    public function getNthNode(int $n = 0): mixed
+    {
+        $current_node = $this->first_node;
+        $count = 1;
+        while ($current_node !== NULL) {
+            if ($count === $n) {
+                return $current_node;
+            }
+            $count++;
+            $current_node = $current_node->next;
+        }
+    }
 }
 
 $linked_list = new LinkedList();
@@ -197,8 +238,13 @@ $linked_list->insert("Three");
 
 $linked_list->display();
 
-$linked_list->delete('One');
-$linked_list->display();
+// echo "2nd element is : " . $linked_list->getNthNode(2)->data . PHP_EOL;
+
+// $linked_list->reverse();
+// $linked_list->display();
+
+// $linked_list->delete('One');
+// $linked_list->display();
 
 // $linked_list->deleteLastNode();
 // $linked_list->display();
