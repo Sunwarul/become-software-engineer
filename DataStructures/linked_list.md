@@ -3,8 +3,8 @@
 **Types of Linked List**
 
 - Doubly linked list
--  Circular linked list
--  Multi-linked list
+- Circular linked list
+- Multi-linked list
 
 **Linked List Example**
 
@@ -65,4 +65,3 @@ $linked_list->insert("Item Three");
 $linked_list->display();
 
 ```
-
