@@ -37,13 +37,6 @@ foreach ($dirs as $dir) {
                     fclose($stream);
                 }
             }
-            // if (is_dir($item)) {
-            //     echo "{$item}/{$fileName}" . PHP_EOL;
-            //     // $file = fopen("{$item}/{$fileName}", "w+");
-            //     // fwrite($file, $tempText);
-            //     // fclose($file);
-            //     // unlink("{$item}/.gitignore");
-            // }
         }
     }
 }
