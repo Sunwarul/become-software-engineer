@@ -24,15 +24,26 @@ while (1) {
 
 $dirs = scandir(__DIR__);
 foreach ($dirs as $dir) {
-    if (is_dir($dir) && !in_array($dir, ['.', '..', 'node_modules', 'vendor'])) {
-        $it = new RecursiveDirectoryIterator($dir);
-        foreach (new RecursiveIteratorIterator($it) as $item) {
-            if (is_dir($item)) {
-                $file = fopen("{$item}/{$fileName}", "w");
-                fwrite($file, $tempText);
-                fclose($file);
-                // unlink("{$item}/.gitignore");
+    if (is_dir($dir) && !in_array($dir, ['.', '..', 'node_modules', 'vendor', '.git'])) {
+        $reit = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($dir),  RecursiveIteratorIterator::CHILD_FIRST);
+        foreach ($reit as $item) {
+            if ($item->isDir()) {
+                if (!in_array($item->getFilename(), ['..'])) {
+                    $stream = fopen($item . "/{$fileName}", "w+");
+                    fwrite(
+                        $stream,
+                        $tempText
+                    );
+                    fclose($stream);
+                }
             }
+            // if (is_dir($item)) {
+            //     echo "{$item}/{$fileName}" . PHP_EOL;
+            //     // $file = fopen("{$item}/{$fileName}", "w+");
+            //     // fwrite($file, $tempText);
+            //     // fclose($file);
+            //     // unlink("{$item}/.gitignore");
+            // }
         }
     }
 }
