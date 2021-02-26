@@ -41,7 +41,8 @@ function fileAsDirectoryName()
                     if (!in_array($item->getFilename(), ['..'])) {
                         if (str_ends_with($item, '/.')) {
                             $arr = explode('/', $item);
-                            $filename = $item . '/' . $arr[count($arr) - 2] . '.md';
+                            $temp = $item . '/' . ucfirst($arr[count($arr) - 2]);
+                            $filename =  $temp . '.md';
                             touch($filename);
                         } else {
                             // echo $item  . PHP_EOL;
@@ -65,7 +66,8 @@ function deleteFileAsDirectoryName()
                     if (!in_array($item->getFilename(), ['..'])) {
                         if (str_ends_with($item, '/.')) {
                             $arr = explode('/', $item);
-                            $filename = $item . '/' . $arr[count($arr) - 2] . '.md';
+                            $temp = $item . '/' . ucfirst($arr[count($arr) - 2]);
+                            $filename =  $temp . '.md';
                             unlink($filename);
                         } else {
                             // echo $item  . PHP_EOL;
