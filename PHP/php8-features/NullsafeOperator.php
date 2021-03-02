@@ -1,26 +1,30 @@
 <?php
 
 /**
- *  User class
- *  The operator came in php 8.0 `?->` is Null-safe operator 
+ * User class
  */
 class User
 {
-    private  $user;
-    public function __construct($user = null)
+    private string $name;
+
+    /**
+     *  __Construct method
+     * @param string $name
+     */
+    public function __construct(?string $name)
     {
-        $this->user = $user;
+        $this->name = $name;
     }
-    public function getUser()
+
+    /**
+     * Get $name
+     * @return string
+     */
+    public function getName(): string
     {
-        return $this->user;
+        return $this->name;
     }
 }
-// $user = new User('Sunwarul');
-// if($user->getUser() !== null ) {
-//     echo $user->getUser();
-// }
-// Using '?->' Null-safe operator: 
 
 $user = new User();
-echo $user?->getUser();
+echo $user;
