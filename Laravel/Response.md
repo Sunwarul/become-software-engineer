@@ -4,7 +4,7 @@ The `Illuminate\Http\Response` class extends `Symfony\Component\HttpFoundation\R
 
 **Using and Creating Response Objects in Controllers**
 
-```
+```php
 return new Illuminate\Http\Response('Hello!');
 
 return response('Hello!');
@@ -35,7 +35,7 @@ example, `view('view.name.here')` or something similar. But if you need to custo
 ize the headers, HTTP status, or anything else when returning a view, you can use the
 view() response type as shown in
 
-```
+```php
 Route::get('/', function (XmlGetterService $xml) {
     $data = $xml->get();
     return response()
@@ -88,7 +88,7 @@ public function invoice($id)
 JSON responses are so common that, even though they’re not really particularly complex to program, there’s a custom response for them as well. JSON responses convert the passed data to JSON (with json_encode() ) and set the Content-Type to application/json . You can also optionally use the setCallback()
 method to create a JSONP response instead of JSON, as seen in
 
-```
+```php
 public function contacts()
 {
 	return response()->json(Contact::all());

@@ -4,7 +4,7 @@
 
 Inject the Request object with IoC/DI container automatically like: 
 
-```
+```php
 public function methodName(Request $request) {
 	return $request;
 }
@@ -63,7 +63,7 @@ $bag->count()
 <u>The user and request state methods include input that wasn’t explicitly provided by</u>
 <u>the user through a form</u>:
 
-```
+```php
 methd()
 path()
 url()
