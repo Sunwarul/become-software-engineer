@@ -1,30 +1,24 @@
 <?php
 
-/**
- * User class
- */
 class User
 {
-    private string $name;
-
-    /**
-     *  __Construct method
-     * @param string $name
-     */
-    public function __construct(?string $name)
+    private $name;
+    public function __construct($name)
     {
         $this->name = $name;
     }
-
-    /**
-     * Get $name
-     * @return string
-     */
-    public function getName(): string
+    public function getName()
     {
         return $this->name;
     }
 }
 
-$user = new User();
-echo $user;
+$user = new User(null);
+// $user = new User('John Doe');
+// if ($user->getName() !== null) {
+//     echo $user->getName();
+// } else {
+//     echo "No user provided.\n";
+// }
+// echo $user?->getName();
+echo $user?->getName() ?? 'No User Provided';
