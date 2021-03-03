@@ -2,7 +2,7 @@
 
 /**
  * Install the php8.0-intl extension before running this program 
- * sudo apt-get install php8.0-intl
+ * On linux machine: sudo apt-get install php8.0-intl
  */
 
 var_dump(IntlChar::charName("."));
