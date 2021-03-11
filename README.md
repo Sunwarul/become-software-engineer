@@ -1,58 +1,19 @@
-# Become a Laravel Developer
+# Become a Software Engineer
 
-Everything you need to know/practice, to become a PHP Laravel Developer. Its a personal learning journey. You may get help from this project, you may also contribute! just make PRs.
+This repository is a collection of resources, and step by step guidelines that can be helpful for any one who self studying to become a good Software Engineer. Most of the codes and examples are written in `php` and `javascript`but concepts can carried out to other languages as well. All the resources, code snippets are copied/inspired by various books, documentations, video-tutorials and self research, I can't mention them all here. As these resources collected from various licensed books/resources, you should only use these study purpose only. Don't do any kind of illegal business out out of these resources by any means. With that being said any one can study and practice from these resources (writings, code snippets, guide-lines, etc) and contribute to this repository.  Contributions are always welcome. 
 
-[TOC]
-
-**Directory Structure** 
-
-<pre>
-.
-├── Algorithms
-├── DataStructures
-├── DevOps
-│   ├── cPanel
-│   ├── DigitalOceanLinux
-│   └── Docker
-├── Documents
-├── FunctionalProgramming
-├── GitAndGithub
-├── GraphQL
-├── Laravel
-├── Linux
-├── OOP
-├── PHP
-├── ProblemSolving
-├── ReactJS
-├── RESTApi
-├── SQL
-├── UnitTesting
-├── VsCodeVim
-├── Vue
-│   ├── VueApollo
-│   ├── VueRouter
-│   ├── Vuetify
-│   └── Vuex
-└── WebTechnologies
-    ├── AjaxAxiosFetch
-    ├── Bootstrap
-    ├── CSS
-    ├── HTML
-    ├── JavaScript
-    ├── jQuery
-    ├── SASS
-    ├── Tailwind
-    └── Webpack
-</pre>
-
-# Important resources
+**Important resources**
 
 - Laravel documentation: https://laravel.com/docs
 - PHP documentation: https://php.net/manual/en
 - JavaScript documentation: https://developer.mozilla.org/en-US
 - Vue documentation: https://vuejs.org/v2/guide/
+- W3Schools: https://w3schools.com
+- Repository homepage: https://github.com/Sunwarul/become-laravel-developer
 
-# Connect with project maintainer
+**Connect with project maintainer**
+
+You can contact, or follow me on social media
 
 <p>
 <a href="https://twitter.com/sunwarul"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=23></a>
@@ -60,5 +21,4 @@ Everything you need to know/practice, to become a PHP Laravel Developer. Its a p
 <a href="https://dev.to/sunwarul"><img src="https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white" height=23></a>
 <a href="https://facebook.com/sunwarul"><img src="https://img.shields.io/badge/Facebook-blue?&style=for-the-badge&logo=facebook&logoColor=white" height=23></a>
 <a href="https://www.quora.com/profile/Sunwarul-Islam"><img src="https://img.shields.io/badge/Quora-red?&style=for-the-badge&logo=quora&logoColor=white" height=23></a>
-
 </p>
