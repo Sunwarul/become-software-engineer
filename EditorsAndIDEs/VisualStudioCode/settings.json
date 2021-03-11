@@ -1,0 +1,223 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontLigatures": true,
+    "editor.mouseWheelZoom": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "editor.fontFamily": " 'Cascadia Code',monospace,'JetBrains Mono','Fira Code',  'Cascadia Code'",
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "explorer.confirmDelete": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.suggestSelection": "first",
+    "files.associations": {
+        "**/templates/*.html": "django-html",
+        "**/templates/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+        "*.md": "mdx",
+        "*.snippet": "plaintext",
+        "*.*.snippet": "plaintext",
+        "*.blade.snippet": "plaintext",
+        "*.php.snippet": "plaintext",
+        "*.js.snippet": "plaintext",
+        "*.javascript.snippet": "plaintext",
+        "*.python.snippet": "plaintext",
+        "*.typescript.snippet": "plaintext",
+    },
+    "emmet.includeLanguages": {
+        "blade": "html",
+        "django-html": "html"
+    },
+    // "python.pythonPath": "/var/www/html/Python/env/bin"
+    "python.pythonPath": "/home/sunwarul/coding/Django/venv/bin",
+    "files.autoSave": "off",
+    "python.jediEnabled": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "explorer.confirmDragAndDrop": false,
+    "blade.format.enable": true,
+    "sync.gist": "a0d7ba7b10d5097b405ff5d22332c5c0",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.fontSize": 16,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // "terminal.external.windowsExec": "C:\\Windows\\System32\\cmd.exe",
+    // "terminal.external.windowsExec": "C:\\Program Files\\ConEmu\\ConEmu64.exe"
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "intelephense.diagnostics.undefinedClassConstants": false,
+    "intelephense.diagnostics.undefinedConstants": false,
+    "intelephense.diagnostics.undefinedFunctions": false,
+    "intelephense.diagnostics.undefinedMethods": false,
+    "intelephense.diagnostics.undefinedProperties": false,
+    "intelephense.diagnostics.undefinedSymbols": false,
+    "intelephense.diagnostics.undefinedTypes": false,
+    "intelephense.diagnostics.undefinedVariables": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "http.proxySupport": "off",
+    "vsicons.dontShowNewVersionMessage": true,
+    "extensions.ignoreRecommendations": false,
+    "intelephense.diagnostics.deprecated": false,
+    "intelephense.diagnostics.duplicateSymbols": false,
+    "intelephense.diagnostics.embeddedLanguages": false,
+    "intelephense.diagnostics.typeErrors": false,
+    "intelephense.diagnostics.unexpectedTokens": false,
+    "intelephense.diagnostics.unusedSymbols": false,
+    "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "window.menuBarVisibility": "toggle",
+    "eslint.format.enable": true,
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll.eslint": true
+    // },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.shellArgs.linux": [
+        "-i"
+    ],
+    "workbench.colorCustomizations": {},
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "task.problemMatchers.neverPrompt": {
+        "shell": true
+    },
+    "python.languageServer": "Pylance",
+    "editor.matchBrackets": false,
+    "workbench.editor.enablePreview": false,
+    "editor.linkedEditing": true,
+    "git.enableSmartCommit": true,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "intelephense.phpdoc.useFullyQualifiedNames": true,
+    "tabnine.experimentalAutoImports": true,
+    "cSpell.userWords": [
+        "Authenticatable",
+        "Authorizable",
+        "CSRF",
+        "Dispatchable",
+        "ERRMODE",
+        "Laravel",
+        "Renderable",
+        "Sunwarul",
+        "Sunwarul's",
+        "XSRF",
+        "aboutme",
+        "autoload",
+        "autoloaded",
+        "classmap",
+        "datatable",
+        "encrypter",
+        "fileupload",
+        "gradesystems",
+        "linkedin",
+        "phpunit",
+        "queueable",
+        "responsable",
+        "templating",
+        "unicodes",
+        "upazilla",
+        "vuetify",
+        "websockets",
+        "একজন"
+    ],
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.confirmSync": false,
+    "terminal.integrated.rendererType": "canvas",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "terminal.integrated.fontSize": 16,
+    "workbench.startupEditor": "newUntitledFile",
+    "diffEditor.maxComputationTime": 0,
+    "editor.formatOnSave": true,
+    "breadcrumbs.enabled": false,
+    "githubIssues.queries": [
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+        }
+    ],
+    "githubPullRequests.remotes": [
+        "origin",
+        "upstream",
+        "git@github.com:Sunwarul/become-laravel-developer.git"
+    ],
+    "terminal.integrated.fontFamily": "'MesloLGM Nerd Font'",
+}
