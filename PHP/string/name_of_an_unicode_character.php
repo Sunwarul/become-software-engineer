@@ -12,3 +12,15 @@ var_dump(IntlChar::charName("\u{2603}"));
 var_dump(IntlChar::charName("\u{0000}"));
 
 echo "\u{2603}" . PHP_EOL;
+
+
+/*
+
+string(9) "FULL STOP"
+string(10) "LOVE HOTEL"
+string(9) "FULL STOP"
+string(7) "SNOWMAN"
+string(0) ""
+☃
+
+*/
