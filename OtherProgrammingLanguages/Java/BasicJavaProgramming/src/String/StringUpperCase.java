@@ -1,3 +1,5 @@
+package String;
+
 /**
  * Convert to upperCase by string method
  */
