@@ -3,5 +3,6 @@ public class TypeCast {
         double previousValue = 2.5500D;
         int afterCasted = (int) previousValue;
         System.out.println(afterCasted);
+        // 2
     }
 }
