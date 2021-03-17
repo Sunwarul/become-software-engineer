@@ -33,7 +33,7 @@ Array
 
 */
 
-// Indexed by another column `id`
+// 'Indexed by' another column `id`
 $last_names = array_column($a, 'last_name', 'id');
 print_r($last_names);
 
