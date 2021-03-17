@@ -17,3 +17,10 @@ $a2 = array("a" => "blue", "b" => "black", "e" => "blue");
 
 $result = array_intersect_ukey($a1, $a2, "myfunction");
 print_r($result);
+
+
+// Array
+// (
+//     [a] => red
+//     [b] => green
+// )
