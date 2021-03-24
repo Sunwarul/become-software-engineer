@@ -15,7 +15,7 @@ foreach($dirs as $dir) {
 fwrite($file_stream, '# Array Methods' . PHP_EOL);
 
 foreach($generated_array as $key => $link) {
-   fwrite($file_stream, "[{$link}]({$BASE}.{$link})". PHP_EOL);
+   fwrite($file_stream, "[{$link}]({$BASE}.{$link})". '<br>');
 }
 
 fclose($file_stream);
