@@ -2,7 +2,16 @@
 
 This repository is a collection of resources, and step by step guidelines that can be helpful for any one who self studying to become a good Software Engineer. Most of the codes and examples are written in `php` and `javascript`but concepts can carried out to other languages as well. All the resources, code snippets are hand re-written/copied/inspired from various books, documentations, video-tutorials and self research, I can't mention them all here. As some of these resources often collected/inspired from various copyrighted  books/resources, you should only use these for study purpose only. Don't do any kind of illegal business out out of these resources, by any means. With that being said, any one can study and practice from these resources (writings, code snippets, guide-lines, etc) and contribute to this repository.  Contributions are always welcome. Just make a pull request, or open/solve issues. 
 
-**Important Websites**
+**Important Repositories**
+
+- https://github.com/kdn251/interviews (Everything you need to know to get the job)
+- https://github.com/mtdvio/every-programmer-should-know (A collection of technical things every software developer should know about)
+- https://github.com/andreasbm/web-skills (A visual overview of useful skills to learn as a web developer)
+- https://github.com/sorrycc/awesome-javascript#readme (A collection of awesome browser-side JavaScript libraries, resources and shiny things.)
+- https://github.com/trekhleb/javascript-algorithms  (Algorithms and data structures implemented in JavaScript with explanations and links to further readings)
+- https://github.com/DesignPatternsPHP/DesignPatternsPHP (Sample code for several design patterns in PHP 7.4)
+
+**Documentation Websites**
 
 - Laravel documentation: https://laravel.com/docs
 - PHP documentation: https://php.net/manual/en
@@ -11,7 +20,9 @@ This repository is a collection of resources, and step by step guidelines that c
 - W3Schools: https://w3schools.com
 - Repository homepage: https://github.com/Sunwarul/become-software-engineer
 
-**Connect with project maintainer**
+
+
+------
 
 You can contact, or follow me on social media
 
