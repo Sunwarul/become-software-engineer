@@ -5,6 +5,6 @@ class Program
 {
     public static void Main(string[] args)
     {
-        ForLoop.Run();
+        ReadLine.Run();
     }
 }
