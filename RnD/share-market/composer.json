@@ -1,0 +1,13 @@
+{
+    "name": "speeddigit/share-market",
+    "authors": [
+        {
+            "name": "Sunwarul Islam",
+            "email": "sunwarul.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "simongomes/bd-stock-exchange-update": "^1.0",
+        "shahariaazam/bd-stock-exchange": "^4.0"
+    }
+}

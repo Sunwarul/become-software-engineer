@@ -4,8 +4,62 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10feb639b4fc3d247be0798b3be7425d",
-    "packages": [],
+    "content-hash": "53df063eda01d3ae1fbc8fcf6d3f989f",
+    "packages": [
+        {
+            "name": "simongomes/bd-stock-exchange-update",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gomessimon/bd-stock-exchange-update-php.git",
+                "reference": "168020c83ec7723a26cb3c3786863400d65ef3fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gomessimon/bd-stock-exchange-update-php/zipball/168020c83ec7723a26cb3c3786863400d65ef3fc",
+                "reference": "168020c83ec7723a26cb3c3786863400d65ef3fc",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/autoload.php"
+                ],
+                "psr-4": {
+                    "Simon\\BDShareMarket\\": "lib/BDShareMarket"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Simon Gomes",
+                    "email": "busy.s.simon@gmail.com",
+                    "homepage": "https://simongomes.me/"
+                }
+            ],
+            "description": "PHP library to fetch bangladesh share market updates, including Dhaka and Chittagong Stock Exchange (DSE & CSE).",
+            "keywords": [
+                "bangladesh",
+                "bangladesh share market",
+                "bangladesh stock exchange",
+                "bd share market",
+                "bd stock exchange",
+                "chittagong stock exchange",
+                "cse",
+                "dhaka stock exchange",
+                "dse",
+                "library"
+            ],
+            "support": {
+                "issues": "https://github.com/gomessimon/bd-stock-exchange-update-php/issues",
+                "source": "https://github.com/gomessimon/bd-stock-exchange-update-php/tree/v1.0.0"
+            },
+            "time": "2018-07-23T06:30:45+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
