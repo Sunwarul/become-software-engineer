@@ -1,0 +1,16 @@
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\bin\Debug\net5.0\basic-csharp.exe
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\bin\Debug\net5.0\basic-csharp.deps.json
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\bin\Debug\net5.0\basic-csharp.runtimeconfig.json
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\bin\Debug\net5.0\basic-csharp.runtimeconfig.dev.json
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\bin\Debug\net5.0\basic-csharp.dll
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\bin\Debug\net5.0\ref\basic-csharp.dll
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\bin\Debug\net5.0\basic-csharp.pdb
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\obj\Debug\net5.0\basic-csharp.csproj.AssemblyReference.cache
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\obj\Debug\net5.0\basic-csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\obj\Debug\net5.0\basic-csharp.AssemblyInfoInputs.cache
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\obj\Debug\net5.0\basic-csharp.AssemblyInfo.cs
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\obj\Debug\net5.0\basic-csharp.csproj.CoreCompileInputs.cache
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\obj\Debug\net5.0\basic-csharp.dll
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\obj\Debug\net5.0\ref\basic-csharp.dll
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\obj\Debug\net5.0\basic-csharp.pdb
+C:\Users\Sunwarul Islam\Desktop\become-software-engineer\ProgrammingLanguages\C#\basic-csharp\obj\Debug\net5.0\basic-csharp.genruntimeconfig.cache
