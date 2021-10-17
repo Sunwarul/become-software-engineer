@@ -1,0 +1,1 @@
+dotnet build -p:StartupObject=$1 --verbosity=quiet -t:Rebuild && dotnet run
