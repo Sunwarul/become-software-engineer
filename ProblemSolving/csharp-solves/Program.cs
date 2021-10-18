@@ -2,6 +2,7 @@
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Program");
+        string name = Console.ReadLine();
+        Console.Write(name);
     }
 }
