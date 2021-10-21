@@ -1,0 +1,34 @@
+#!csharp
+
+void p(object o) 
+{
+    Console.WriteLine(o);
+}
+
+#!csharp
+
+char[] vowels = new char[]{'a','e','i','o','u'};
+char lastOne = vowels[^3];
+p(lastOne);
+
+#!csharp
+
+var list = new List<string>();
+list.Add("Name 1");
+list.Add("Name 2");
+list.Add("Name 3");
+foreach(var i in list)
+{
+    p(i);
+}
+
+#!csharp
+
+ArrayList arrayList = new ArrayList();
+arrayList.Add("John");
+arrayList.Add("James");
+arrayList.Add("Erich");
+
+foreach(var item in arrayList) {
+    p(item);
+}
