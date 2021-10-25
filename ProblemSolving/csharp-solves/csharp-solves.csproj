@@ -6,6 +6,7 @@
     <RootNamespace>csharp_solves</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Configurations>Debug;Release;CP</Configurations>
   </PropertyGroup>
 
 </Project>

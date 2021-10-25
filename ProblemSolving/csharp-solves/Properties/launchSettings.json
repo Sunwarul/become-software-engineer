@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "csharp-solves": {
+      "commandName": "Project"
+    }
+  }
+}
