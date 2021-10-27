@@ -2,6 +2,7 @@
 {
     public static void Main()
     {
-        Console.WriteLine("Bootstarp");
+        string name = Console.ReadLine();
+        Console.WriteLine(name);
     }
 }
