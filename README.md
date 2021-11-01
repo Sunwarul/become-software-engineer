@@ -18,7 +18,6 @@ This repository is a collection of resources, and step by step guidelines that c
 - JavaScript documentation: https://developer.mozilla.org/en-US
 - Vue documentation: https://vuejs.org/v2/guide/
 - W3Schools: https://w3schools.com
-- Repository homepage: https://github.com/Sunwarul/become-software-engineer
 
 
 
