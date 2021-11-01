@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, traverser!");
+﻿class Program
+{
+    public static void Main(string[] args)
+    {
+        var enumerable = Enumerable.Range(1, 11).ToArray();
+        Console.WriteLine(enumerable.Length);
+    }
+}
