@@ -1,0 +1,18 @@
+{
+    "name": "sunwarul/project",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Project\\Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sunwarul Islam",
+            "email": "sanoarulslm@gmail.com"
+        }
+    ]
+}
