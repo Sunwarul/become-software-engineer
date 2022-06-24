@@ -1,0 +1,31 @@
+# Routine 
+
+Monday - Thursday (Office days)
+-----------------------------------------
+7:00am - 9:30am => Data-structure & Algorithm (using JavaScript and/or PHP)
+8:00pm - 10:00pm => MySQL, JavaScript
+10:00pm - 11:00pm => PHP7,PHP8,PHP8.1
+11:00pm-12:00am => Laravel & Symphony (Components)
+12:00am-2:00am => Project work
+
+Friday & Saturday (Weekends)
+------------------------------------------
+7:00am - 9:00am => SQL & NoSQL Theories, Principles, Techniques
+9:00am - 11:00am => C# Data-structure & Algorithms
+11:00am - 1:00pm => Advanced C#
+3:30pm - 6:00pm => MSSQL Server, Powershell, CMD, Batch-scripting, Vim, Vs-Code Extension Development
+7:30pm - 12:30am => ASP.NET Core (MVC, WebAPI,Microservice,Blazor,MAUI,etc)
+12:30am - 2:30am => ASP.NET Core project
+
+
+Extras:
+------------------------------------------
+- Problem solving on HackerRank/Codeforces/LeetCode
+- Professional platforms: Fiverr, Upwork, BDJobs, Linkedin, Codecanyone
+- Online presence: Quora, Dev.to, Medium, Personal Blog, Facebook developer groups, Follow top devs on Twitter, Reddit
+- Produce Youtube tutorials to help others 
+
+
+
+
+য

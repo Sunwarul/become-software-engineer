@@ -30,6 +30,3 @@ class Calculator
         return abs($a - $b);
     }
 }
-
-echo (new Calculator)->add(1, 2.9, 3, 50) . PHP_EOL;
-echo (new Calculator)->subtract(30.3, 12) . PHP_EOL;
