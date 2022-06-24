@@ -9,6 +9,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 class TestCommand extends Command
 {
     use RefreshDatabase;
+
     /**
      * The name and signature of the console command.
      *
@@ -31,6 +32,7 @@ class TestCommand extends Command
     public function handle()
     {
         dd(Book::count());
+
         return 0;
     }
 }

@@ -33,8 +33,8 @@ class BooksTest extends TestCase
     {
         $this->post('books', [
             'title' => 'Default title',
-            'description' => ''
-        ]) ;
+            'description' => '',
+        ]);
 
         // $this->assertEquals('Default title', Book::first()->title);
         // $this->assertEquals('', Book::first()->description);
@@ -53,7 +53,6 @@ class BooksTest extends TestCase
         // $this->assertEquals('Some description', $book->description);
     }
 
-
     /** @test */
     public function test_a_book_can_be_deleted()
     {
@@ -61,7 +60,7 @@ class BooksTest extends TestCase
 
         $this->post('books', [
             'title' => 'Tittle1',
-            'description' => null
+            'description' => null,
         ]);
 
         $this->assertCount(1, Book::all());

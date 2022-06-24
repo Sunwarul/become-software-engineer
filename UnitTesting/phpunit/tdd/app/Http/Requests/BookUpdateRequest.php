@@ -25,7 +25,7 @@ class BookUpdateRequest extends FormRequest
     {
         return [
             'title' => 'required',
-            'description' => 'string'
+            'description' => 'string',
         ];
     }
 }

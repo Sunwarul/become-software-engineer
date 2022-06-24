@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Book;
-use Illuminate\Http\Request;
 use App\Http\Requests\BookStoreRequest;
 use App\Http\Requests\BookUpdateRequest;
+use App\Models\Book;
+use Illuminate\Http\Request;
 
 class BookController extends Controller
 {
@@ -17,6 +17,7 @@ class BookController extends Controller
     public function store(BookStoreRequest $request)
     {
         $book = Book::create($request->validated());
+
         return \redirect("/books/$book->id");
     }
 
