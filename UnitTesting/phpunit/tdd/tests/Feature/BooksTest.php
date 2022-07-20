@@ -36,21 +36,20 @@ class BooksTest extends TestCase
             'description' => '',
         ]);
 
-        // $this->assertEquals('Default title', Book::first()->title);
-        // $this->assertEquals('', Book::first()->description);
+        $this->assertEquals('Default title', Book::first()->title);
+        $this->assertEquals('', Book::first()->description);
 
-        // $bookId = Book::first()->id;
-        // $this->assertEquals(1, $bookId);
+        $bookId = Book::first()->id;
+        $this->assertEquals(1, $bookId);
 
-        // $response = $this->patch("books/{$bookId}", [
-        //     'title' => 'New title',
-        //     'description' => 'Some description'
-        // ]);
-        // $response->assertOk();
-        // $book = Book::first();
-        // $response->assertRedirect("books/$book->id");
-        // $this->assertEquals('New title', $book->title);
-        // $this->assertEquals('Some description', $book->description);
+        $response = $this->patch("books/{$bookId}", [
+            'title' => 'New title',
+            'description' => 'Some description'
+        ]);
+        $response->assertOk();
+        $book = Book::first();
+        $this->assertEquals('New title', $book->title);
+        $this->assertEquals('Some description', $book->description);
     }
 
     /** @test */
