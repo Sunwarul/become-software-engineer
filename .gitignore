@@ -1,11 +1,7 @@
 /vendor
 /node_modules
-composer.lock
 .gitignore
 /.gitignore
-tempCodeRunnerFile.php
-/.vscode
-.vscode
 .vs
 /.vs
 .phpintel

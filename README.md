@@ -1,6 +1,6 @@
 # Become a Software Engineer
 
-This repository is a collection of resources, and step by step guidelines that can be helpful for any one who self studying to become a good Software Engineer. Most of the codes and examples are written in `php` and `javascript`but concepts can carried out to other languages as well. All the resources, code snippets are hand re-written/copied/inspired from various books, documentations, video-tutorials and self research, I can't mention them all here. As some of these resources often collected/inspired from various copyrighted  books/resources, you should only use these for study purpose only. Don't do any kind of illegal business out out of these resources, by any means. With that being said, any one can study and practice from these resources (writings, code snippets, guide-lines, etc) and contribute to this repository.  Contributions are always welcome. Just make a pull request, or open/solve issues. 
+This repository is a collection of resources, and step by step guidelines that can be helpful for any one who self studying to become a good Software Engineer. Most of the codes and examples are written in `php` and `javascript`but concepts can carried out to other languages as well. Contributions are always welcome. Just make a pull request, or open/solve issues. 
 
 **Important Repositories**
 
